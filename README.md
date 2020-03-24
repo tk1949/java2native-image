@@ -14,7 +14,7 @@
 
 > 自行配置Java运行环境即可，不配置可在 Step 3 里面直接使用 `GraalVM/bin` 里面 **gu** 命令
 
-##### **Step 3、安装 native-image**
+##### **Step 3.1、安装 native-image**
 
 > **gu install native-image**
 
@@ -25,7 +25,18 @@ Downloading: Component native-image: Native Image  from github.com
 Installing new component: Native Image (org.graalvm.native-image, version 19.3.0.2)
 ```
 
-> _环境配置到此处结束_
+##### **Step 3.2、 _查看安装是否成功_**
+
+> **gu list**
+
+```
+ComponentId              Version             Component name      Origin 
+--------------------------------------------------------------------------------
+graalvm                  19.3.0.2            GraalVM Core        
+native-image             19.3.0.2            Native Image        github.com
+```
+
+> ---**_环境配置到此处结束_**---
 
 ##### **Step 4、编写 HelloWord**
 
