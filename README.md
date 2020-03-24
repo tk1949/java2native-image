@@ -2,17 +2,17 @@
 
 > GraalVM提供了一个全面的生态系统，支持大量的语言集合包括（Java以及其他基于JVM的语言, JavaScript, Ruby, Python, R, 以及 C/C++ 还有其他基于LLVM的语言），同时还能支持在不同的部署场景下运行（包括OpenJDK、Node.js、MySQL、Oracle Database，或者其他独立场景）
 >
-> _注意: GrallVM 对于 Windows 为实验性支持，所以本文运行文件为 Linux_
+> _注意: 由于 GrallVM 对于 Windows 为实验性支持，所以本文运行环境为 Linux_
 
 ##### **Step 1、下载 GraalVM CE**
 
 > https://github.com/graalvm/graalvm-ce-builds/releases
 >
-> _注意: 下载 Linux 版本 [graalvm-ce-java11-linux-amd64-20.0.0.tar.gz](graalvm-ce-java11-linux-amd64-20.0.0.tar.gz), 也可以下载更高版本_
+> _注意: 本文下载 Linux 版本 [graalvm-ce-java11-linux-amd64-20.0.0.tar.gz](graalvm-ce-java11-linux-amd64-20.0.0.tar.gz), 也可以下载更高版本_
 
 ##### **Step 2、配置 Java 运行环境**
 
-> 自行配置Java运行环境即可，不配置的在 Step 3 里面可使用 `bin` 里面 **gu** 命令
+> 自行配置Java运行环境即可，不配置可在 Step 3 里面直接使用 `GraalVM/bin` 里面 **gu** 命令
 
 ##### **Step 3、安装 native-image**
 
